@@ -11,8 +11,8 @@ fi
 
 SHA=`git rev-parse --verify HEAD`
 
-git config --global user.name "Deploy bot"
-git config --global user.email "deploybot@maputnik.com"
+git config --global user.name "lzxue"
+git config --global user.email "lzx199065@gmail.com"
 
 mv glyphs.json glyphs.json.new
 git checkout -b gh-pages origin/gh-pages || git checkout --orphan gh-pages

@@ -129,7 +129,7 @@ EOF
 ./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Heavy.ttf "glyphs/Alibaba PuHuiTi Heavy"
 ./node_modules/.bin/build-glyphs fonts/opensans/hinted_ttfs/OpenSans-Regular.ttf "glyphs/Alibaba-PuHuiTi Regular"
 ./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Bold.ttf "glyphs/Alibaba-PuHuiTi Bold"
-./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Medium.ttf "Alibaba-PuHuiTi Medium"
+./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Medium.ttf "glyphs/Alibaba-PuHuiTi Medium"
 
 cp fonts/roboto/LICENSE "glyphs/Roboto Black"
 cp fonts/roboto/LICENSE "glyphs/Roboto Black"

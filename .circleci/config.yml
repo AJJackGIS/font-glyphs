@@ -1,13 +1,15 @@
 version: 2
 jobs:
+  deploy-job:
+    steps:
+       - add_ssh_keys:
+            fingerprints:
+                - "4e:54:a6:ab:4c:11:9a:96:45:65:23:e9:f0:3f:88:7a"
   build:
     working_directory: ~/code
     docker:
       - image: node:8
     steps:
-      - add_ssh_keys:
-            fingerprints:
-                - "4e:54:a6:ab:4c:11:9a:96:45:65:23:e9:f0:3f:88:7a"
       - checkout
       - run:
           name: update-npm 

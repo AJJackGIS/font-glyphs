@@ -81,7 +81,7 @@ cat << EOF > glyphs.json
   "Open Sans Regular",
   "Open Sans Semi Bold",
   "Open Sans Semi Bold Italic",
-  "Alibaba PuHuiTi Heavy",
+  "Alibaba-PuHuiTi Heavy",
   "Alibaba-PuHuiTi Bold",
   "Alibaba-PuHuiTi Light",
   "Alibaba-PuHuiTi Medium",
@@ -127,7 +127,7 @@ EOF
 
 ./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Light.ttf "glyphs/Alibaba-PuHuiTi Light"
 ./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Heavy.ttf "glyphs/Alibaba-PuHuiTi Heavy"
-./node_modules/.bin/build-glyphs fonts/opensans/hinted_ttfs/OpenSans-Regular.ttf "glyphs/Alibaba-PuHuiTi Regular"
+./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Regular.ttf "glyphs/Alibaba-PuHuiTi Regular"
 ./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Bold.ttf "glyphs/Alibaba-PuHuiTi Bold"
 ./node_modules/.bin/build-glyphs fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Medium.ttf "glyphs/Alibaba-PuHuiTi Medium"
 

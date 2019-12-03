@@ -22,7 +22,6 @@ rm .git/index
 
 git add -f glyphs
 git add -f glyphs.json
-git add -f sprite
 
 if [ -n "`git diff --staged`" ]; then
   git commit -m "Deploy to GitHub Pages: ${SHA}"
